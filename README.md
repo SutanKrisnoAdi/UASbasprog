@@ -1,2 +1,2 @@
 # UASbasprog
-lalalallalalalalalalallalalallala
+sutan krisno adi ganteng bangatttt
