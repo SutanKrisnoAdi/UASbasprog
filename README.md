@@ -13,7 +13,7 @@
 
 daftar_nilai
 
--Tambah data
+- Tambah data
         - data = {} untuk menampung list data yang nanti akan terinput
         - deklarasikan fungsi def tambah_data():
         - nama = input("Masukan nama: ") lalu tambahkan input nama, nim, nilai tugas, uts, uas
@@ -21,7 +21,7 @@ daftar_nilai
         - data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir] kita akan masukkan data yang tadi kita input ke dalam `data[nama]'
         - lalu cetak print()
 
--Ubah data
+- Ubah data
         - deklarasikan fungsi   def ubah_data():
         nama = input("Masukan nama untuk mengubah data: ") kita akan menginput data yang nanti akan di ubah
         - if nama in data.keys(): print("Mau mengubah apa?") jika 'nama' dari di dalam 'data' maka akan mengembalikan daftar menggunakan fungsi 'keys()' lalu di cetak lah 'print()'
@@ -33,7 +33,7 @@ daftar_nilai
         - lalu cetak print("\nBerhasil ubah data!")
         - else: print("'{}' tidak ditemukan.".format(nama)) jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
--Cari data
+- Cari data
         - deklarasikan fungsi def cari_data():
         - nama = input("Masukan nama untuk mencari data: ") kita akan menginput data yang nanti akan dicari
         - if nama in data.keys(): kita akan mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
