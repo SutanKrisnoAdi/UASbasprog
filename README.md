@@ -46,3 +46,52 @@ daftar_nilai
     - del data[nama] hapus semua 'nama' yang ada di dalam 'data'
     - jika sudah maka cetak print("sub_data '{}' berhasil dihapus.".format(nama))
     - else: print("'{}' tidak ditemukan.".format(nama)) jika ada data yang kita input salah/tidak ditemukan maka akan di tercetak 'nama tidak ditemukan'
+
+## View
+
+input_nilai
+    - menambahkan fungsi input yang nantinya akan di deklarasikan di setiap modulenya, def input_nama(): def input_nim(): dan yang lainnya, yang nanti akan di masukkan kedalam data={}
+
+view_nilai
+    - deklarasikan fungsi def lihat_data(): kita menggunakan kondisi percabangan if, ambil data dari data
+    - lalu cetak print()
+
+Lalu yang terakhir kita eksekusi file main.py
+
+    from Model.daftar_nilai import *
+    from View.view_nilai import *
+
+    #Mulai
+    print("===============================================================")
+    print("|                           Program 1                         |")
+    print("|    312210056                                     TI.22.C1   |")
+    print("|                        Sutan Krisno Adi                     |")
+    print("===============================================================")
+
+    while True:
+        print("\n")
+        menu = input("(L) Lihat, (T) Tambah, (H) Hapus, (U) Ubah, (C) Cari, (K) Keluar\nPilih menu: ")
+        print("\n")
+
+        # menu
+        if menu.lower() == 't':
+            tambah_data()
+
+        elif menu.lower() == 'c':
+            cari_data()
+
+        elif menu.lower() == 'l':
+            lihat_data()
+
+        elif menu.lower() == 'u':
+            ubah_data()
+
+        elif menu.lower() == 'h':
+            hapus_data()
+
+        # Keluar
+        elif menu.lower() == 'k':
+            break
+
+        else:
+            print("Ada yang salah cuyy, silahkan cek kembali.")
