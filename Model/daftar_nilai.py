@@ -24,7 +24,7 @@ def tambah_data():
 def ubah_data():
     nama = input("Masukan nama untuk mengubah data: ")
     if nama in data.keys():
-        print("\nLu mau ganti apaan nyet!?")
+        print("\nApa aja yang mau diganti ??")
         sub_data = input("(Semua), (NIM), (Tugas), (UTS), (UAS) : ")
         if sub_data.lower() == "semua":
             print("==========================")

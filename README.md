@@ -95,3 +95,36 @@ Lalu yang terakhir kita eksekusi file main.py
 
         else:
             print("Ada yang salah cuyy, silahkan cek kembali.")
+
+# Output 
+
+Tampilan Awal Program
+
+![image2.png](sikirinsot/tampilanawal.png)
+
+Tampilan Tambah Data
+
+![image3.png](sikirinsot/tampilantambah.png)
+
+Tampilan Lihat Data Setelah Data Ditambahkan
+
+![image4.png](sikirinsot/tampilanlihat1.png)
+
+Tampilan Ubah Data
+
+![image5.png](sikirinsot/tampilanubah.png)
+
+Tampilan Jika Data Berhasil Diubah
+
+![image6.png](sikirinsot/berhasilubah.png)
+
+Tampilan Cari Data
+
+![image7.png](sikirinsot/tampilancari.png)
+
+Tampilan Hapus Data
+
+![image8.png](sikirinsot/hapus.png)
+
+
+### CUKUP SEKIAN DAN TERIMA KASIH
