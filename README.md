@@ -3,6 +3,8 @@
 ### NIM     : 312210056
 ### Kelas   : TI.22.C1
 
+[TutorialPDF](file/PROJECT%20UJIAN%20AKHIR%20SEMESTER.pdf)
+
 # Struktur Package & Module
 
 ![image1.png](sikirinsot/ss1.png)
