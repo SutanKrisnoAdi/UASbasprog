@@ -3,6 +3,15 @@
 ### NIM     : 312210056
 ### Kelas   : TI.22.C1
 
+Berikut Tutorial berupa file PDF
+    |   |
+    |   |
+  _ |   | _
+  \       /
+   \     /
+    \   /
+     \ /
+      V
 [TutorialPDF](file/PROJECT%20UJIAN%20AKHIR%20SEMESTER.pdf)
 
 # Struktur Package & Module
