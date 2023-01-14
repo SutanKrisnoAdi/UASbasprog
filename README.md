@@ -3,6 +3,7 @@
 ### NIM     : 312210056
 ### Kelas   : TI.22.C1
 
+Link Youtube: https://youtu.be/n6A7A8LUh9A
 ### Berikut Tutorial berupa file PDF
 
 [TutorialPDF](file/PROJECT%20UJIAN%20AKHIR%20SEMESTER.pdf)
